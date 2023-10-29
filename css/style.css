@@ -1,0 +1,22 @@
+/*COLORES Y FUENTES*/
+:root {
+    --verde: #679899;
+    --verdeclaro: #7EA5AC;
+    --morado: #A6A7F0;
+    --gris: #D2DDE9;
+    --blanco: #FFFFFF;
+    --fuente-principal: 3.8rem;
+}
+
+/*HEADER*/
+.logo {
+    width: 130px;
+}
+
+
+/*FOOTER*/
+footer {
+    padding: 50px;
+    text-align: center;
+}
+
