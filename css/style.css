@@ -8,14 +8,46 @@
     --fuente-principal: 3.8rem;
 }
 
+body {
+    font-size: 20px; /*1rem=10px*/
+    font-family: 'Acme', sans-serif;
+}
+
 /*HEADER*/
 .logo {
     width: 130px;
 }
 
+.navbar {
+    background-color: var(--blanco);
+    padding: 1rem;
+}
+
+#navbarNavDropdown {
+    margin-right: 150px;
+}
+
+#navbarNavDropdown a:hover {
+    background-color: #A6A7F0;
+    padding: 1rem;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Pompiere';
+}
+
+h3 {
+    font-size: 25px;
+}
 
 /*FOOTER*/
 footer {
+    font-family: sans-serif;
+    font-size: 14px;
     padding: 50px;
     text-align: center;
 }
