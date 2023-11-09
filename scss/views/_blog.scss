@@ -1,0 +1,48 @@
+.blog-post {
+  max-width: 400px;
+  margin: 1em;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px $gris;
+
+  &:hover {
+    box-shadow: 0 0 20px $gris;
+  }
+
+  &.animate__animated {
+    opacity: 0;
+  }
+
+  &.animate__fadeInUp {
+    animation: fadeInUp 1s forwards;
+  }
+
+    .card-content {
+        margin: 10px;
+        padding: 10px;
+    
+        .blog-title {
+            @include font-principal($font-medium, $acme);
+            padding: 10px;
+        }
+        
+        .blog-img {
+            width: 100%;
+        }
+    
+        .blog-text {
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+    
+        a {
+            @extend .blog-text;
+            color: $verde;
+        }
+    }
+}
+    
+    
+

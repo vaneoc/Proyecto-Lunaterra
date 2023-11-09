@@ -1,0 +1,18 @@
+article.team {
+    background-color: $verde;
+    transition: transform 0.3s ease, opacity 1s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    .card-text {
+        @include text-block($font-medium, $roboto);
+        color: $blanco;
+    }
+    
+    .card-img-top {
+        margin-top: 10px;
+    }
+}
+

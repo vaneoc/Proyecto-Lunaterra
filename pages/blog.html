@@ -5,55 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preload" href="../css/normalize.css" as="style">
+    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="preload" href="../css/style.css" as="style">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/logopng.png.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Pompiere&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logopng.png.png" alt="logo lunaterra"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-              <ul class="navbar-nav align-items-center">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Servicios
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Fonoaudiología</a></li>
-                    <li><a class="dropdown-item" href="#">Terapia Ocupacional</a></li>
-                    <li><a class="dropdown-item" href="#">Otros</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="equipo.html">Equipo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logocircular.png" alt="logo lunaterra"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/pages/servicios.html#fonoaudiologia">Fonoaudiología</a></li>
+                <li><a class="dropdown-item" href="/pages/servicios.html#terapia-ocupacional">Terapia Ocupacional</a></li>
+                <li><a class="dropdown-item" href="/pages/servicios.html#kinesiologia">Kinesiología</a></li>
               </ul>
-            </div>
-          </div>
-        </nav>
-    </header>
-    <footer>
-        &copy; 2023 Vanessa Orozco - Todos los derechos reservados.
-    </footer>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h2>Blog</h2>
 
+    <div class="contenedor-articulos">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-4">
+          <article class="blog-post">
+            <div class="card-content">
+              <h3 class="blog-title">Rol del Fonoaudiólogo en Cáncer Infantil</h3>
+              <img class="blog-img" src="../img/post1.jpg" alt="Post 1">
+              <p class="blog-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio alias atque quis provident suscipit. Vel totam veritatis porro soluta rem!
+              </p>
+              <a href="#">Leer más...</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+          <article class="blog-post">
+            <div class="card-content">
+              <h3 class="blog-title">La OPS lanza un número especial sobre el cáncer infantil en América Latina y el Caribe</h3>
+              <img class="blog-img" src="https://www.paho.org/sites/default/files/styles/max_1500x1500/public/2023-10/childhood-cancer-special-issue-esp-web.jpg?itok=OikpUgao" alt="Post 2">
+              <p class="blog-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio alias atque quis provident suscipit. Vel totam veritatis porro soluta rem!
+              </p>
+              <a href="#">Leer más...</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+          <article class="blog-post">
+            <div class="card-content">
+              <h3 class="blog-title">Avances en el cáncer infantil</h3>
+              <img class="blog-img" src="https://salud.nih.gov/sites/salud/files/styles/max_650x650/public/2023-03/202303-ilustracion-nino-con-cancer.jpg?itok=_Gbti-4E" alt="Post 3">
+              <p class="blog-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio alias atque quis provident suscipit. Vel totam veritatis porro soluta rem!
+              </p>
+              <a href="#">Leer más...</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+          <article class="blog-post">
+            <div class="card-content">
+              <h3 class="blog-title">3 tipos de cáncer infantil más comunes</h3>
+              <img class="blog-img" src="../img/post4.jpg" alt="Post 3">
+              <p class="blog-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio alias atque quis provident suscipit. Vel totam veritatis porro soluta rem!
+              </p>
+              <a href="#">Leer más...</a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+</main>
+
+
+    </div>
+  </main>
+
+  <footer>
+      &copy; 2023 Vanessa Orozco - Todos los derechos reservados.
+    
+    <div class="contenedor-iconos">
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+        <path d="M16.5 7.5l0 .01" />
+      </svg></a>
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+      </svg></a>
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+        <path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" />
+      </svg></a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var cards = document.querySelectorAll('.blog-post');
+      cards.forEach(function(card, index) {
+        card.classList.add('animate__animated', 'animate__fadeInUp', 'animate__delay-' + (index * 0.2) + 's');
+      });
+    });
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

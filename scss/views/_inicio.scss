@@ -1,0 +1,44 @@
+h2 {
+    @include font-principal (40px, $pompiere);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: $verde;
+}
+
+h3 {
+    @include font-principal (20px, $acme);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contenedor-informacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    .informacion-inicio {
+        @include text-block(18px, $roboto);
+        }
+    
+    .img-inicio1 {
+        width: 40%;
+        max-width: 100%;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .img-inicio2 {
+        width: 40%;
+        max-width: 100%;
+        height: auto;
+        margin-right: 40px;
+    }
+}
+
+
+
+
+  
+  
