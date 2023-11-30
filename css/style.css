@@ -151,7 +151,6 @@ h3 {
 
 .contenedor-informacion {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
@@ -166,15 +165,29 @@ h3 {
   width: 40%;
   max-width: 100%;
   height: auto;
-  margin-left: 40px;
+  margin-left: 0;
 }
 .contenedor-informacion .img-inicio2 {
   width: 40%;
   max-width: 100%;
   height: auto;
-  margin-right: 40px;
+  margin-right: 0;
 }
 
+@media (max-width: 768px) {
+  .contenedor-informacion {
+    display: block;
+  }
+  .contenedor-informacion .informacion-inicio {
+    text-align: center;
+  }
+  .contenedor-informacion .img-inicio1,
+  .contenedor-informacion .img-inicio2 {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}
 .servicios {
   font-family: "Acme", sans-serif;
   font-size: 25px;

@@ -14,31 +14,43 @@ h3 {
 
 .contenedor-informacion {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px;
 
     .informacion-inicio {
         @include text-block(18px, $roboto);
-        }
-    
+    }
+
     .img-inicio1 {
         width: 40%;
         max-width: 100%;
         height: auto;
-        margin-left: 40px;
+        margin-left: 0; // Cambia el valor o elimínalo
     }
-
+    
     .img-inicio2 {
         width: 40%;
         max-width: 100%;
         height: auto;
-        margin-right: 40px;
+        margin-right: 0; // Cambia el valor o elimínalo
     }
-}
+    
+    }
 
-
-
-
-  
-  
+    @media (max-width: 768px) {
+        .contenedor-informacion {
+            display: block;
+    
+            .informacion-inicio {
+                text-align: center; 
+            }
+    
+            .img-inicio1,
+            .img-inicio2 {
+                width: 100%;
+                max-width: 100%;
+                margin: 10px 0; 
+            }
+        }
+    }
+    
